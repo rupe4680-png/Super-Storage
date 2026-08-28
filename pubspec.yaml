@@ -1,0 +1,50 @@
+name: super_storage
+description: Super Storage - सुरक्षित डिजिटल स्टोरेज ऐप (Offline File Storage + Cloud Backup)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Authentication
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+  google_sign_in: ^6.1.6
+  flutter_facebook_auth: ^6.0.4
+
+  # Cloud Storage
+  firebase_storage: ^11.5.0
+  cloud_firestore: ^4.13.0
+
+  # Offline local storage (files + metadata)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.1
+
+  # File pick / view
+  file_picker: ^6.1.1
+  image_picker: ^1.0.4
+  photo_view: ^0.14.0
+  video_player: ^2.8.1
+  open_filex: ^4.3.4
+
+  # State management
+  provider: ^6.1.1
+  uuid: ^4.2.2
+
+  # Permissions
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
